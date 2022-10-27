@@ -7,10 +7,10 @@ export default function Header() {
       <Link href="/" passHref legacyBehavior>
         <a>Startseite</a>
       </Link>
-      <Link href="/pages/Dessert" passHref legacyBehavior>
+      <Link href="/Dessert" passHref legacyBehavior>
         <a>Dessert</a>
       </Link>
-      <Link href="/pages/Veggie" passHref legacyBehavior>
+      <Link href="/Veggie" passHref legacyBehavior>
         <a>Veggie</a>
       </Link>
     </StyledHeader>
@@ -23,6 +23,6 @@ const StyledHeader = styled.header`
   align-items: center;
   padding: 0 1rem;
   height: 4rem;
-  border-bottom: 1px solid var(--text-primary);
-  background-color: var(--background-light);
+  border-bottom: 1px solid black;
+  background-color: lightblue;
 `;
